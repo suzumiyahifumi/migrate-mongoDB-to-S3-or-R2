@@ -2,6 +2,10 @@
 
 This is an example for mongodb GridFS bucket data stream upload to S3 or R2.
 
+### Usage
+1. get your `ACCOUNT_ID`, `ACCESS_KEY_ID`, `ACCESS_KEY` from S3 ro R2.
+2. reset `.env` by `.env.example`.
+
 ### package.js
 ```json
 "dependencies": {
